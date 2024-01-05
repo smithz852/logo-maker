@@ -1,6 +1,8 @@
 // prompts go here and the write file function
 const inquirer = require("inquirer");
 const fs = require('fs');
+const shape = require("./lib/shapes");
+
 
 inquirer
  .prompt([
@@ -26,6 +28,6 @@ inquirer
         name: 'shapeColor'
     },
  ]).then((data) =>
- fs.writeFile('./examples/logo.svg', shapes(data), (err) =>
+ fs.writeFile('./examples/logo.svg', shape(data), (err) =>
  err ? console.error(err) : console.log('Logo has been created!')
  ));
