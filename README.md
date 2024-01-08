@@ -22,7 +22,7 @@ Node.js and VS Code
 
 The app is run from the terminal using VS Code. Simply open up the app in VS Code and run the Node.js command, "node index.js", and answer the questions that are prompted in the terminal. Upon completing the questions, the SVG image code will appear in the "examples" section of the repo. It can then be used elsewhere as needed.
 
-Video Walkthrough Link:
+Video Walkthrough Link: https://drive.google.com/file/d/1oyqAbRoBO3uXLY4Ukrz5jY_1V2nO7bRP/view
 
 
 ## License
